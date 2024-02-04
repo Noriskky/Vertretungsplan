@@ -99,13 +99,7 @@ function makeContent(length, characters) {
 function add(_class, hour, art, lesson, lesson_old, room, room_old, teacher, teacher_old, additionalinfo) {
     var rowid;
     const __class = _class.replace(/[^0-9]/g, '')
-    if (__class > 10) {
-        rowid = "table-right"
-    } else {
-        rowid = "table-left"
-    }
-
-    
+        rowid = "table-right"    
     addRow(rowid, _class, hour, art, lesson, lesson_old, room, room_old, teacher, teacher_old, additionalinfo)
 }
  
