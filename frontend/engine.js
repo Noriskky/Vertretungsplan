@@ -65,7 +65,7 @@ function makeid(id) {
         return (getRandomInt(9) + 5) + makeContent(1, 'abcdef')
     } else if (id === 1) {
         return getRandomInt(5) + 1
-    } else if (id === 4) {
+    } else if (id == 4 || id == 3) {
         const subjects = ['Math', 'Science', 'History', 'English', 'Physics', 'Chemistry', 'Biology', 'Geography'];
         const randomSubject = subjects[Math.floor(Math.random() * subjects.length)];
         return `${randomSubject}`;
