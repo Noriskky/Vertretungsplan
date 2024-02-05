@@ -69,7 +69,7 @@ function makeid(id) {
         const subjects = ['Math', 'Science', 'History', 'English', 'Physics', 'Chemistry', 'Biology', 'Geography'];
         const randomSubject = subjects[Math.floor(Math.random() * subjects.length)];
         return `${randomSubject}`;
-    } else if (id == 5 || id == "6") {
+    } else if (id == 5 || id == 6) {
         const min = 100;
         const max = 999;
 
