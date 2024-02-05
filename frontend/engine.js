@@ -82,6 +82,8 @@ function makeid(id) {
         const randomFamilyName = familyNames[Math.floor(Math.random() * familyNames.length)];
 
         return `${randomFamilyNamePrefix}.${randomFamilyName}`;
+    } else if(id == 2) {
+        return ""
     }
 }
 
