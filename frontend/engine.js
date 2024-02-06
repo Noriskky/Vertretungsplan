@@ -14,7 +14,7 @@ function checkTime(i) {
 }
 
 function onload() {
-    var a = getRandomInt(50)
+    var a = 200
     for (let i=0; i<=a; i++ ) {
         add(makeid(0), makeid(1), makeid(2), makeid(3), makeid(4), makeid(5), makeid(6), makeid(7), makeid(8), "-/-")
      }  
